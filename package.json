@@ -1,0 +1,35 @@
+{
+  "name": "http_host_plantilla",
+  "version": "1.0.0",
+  "description": "Plantilla para servidores http nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test_http",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinChavez-Ikigo/PlantillaServerHttpNodejs.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Http",
+    "Server"
+  ],
+  "author": "Martin Chavez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinChavez-Ikigo/PlantillaServerHttpNodejs/issues"
+  },
+  "homepage": "https://github.com/MartinChavez-Ikigo/PlantillaServerHttpNodejs#readme",
+  "dependencies": {
+    "aes256": "^1.0.4",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "knex": "^0.16.5",
+    "mysql": "^2.17.1",
+    "pg": "^7.11.0",
+    "pg-promise": "^8.7.3"
+  }
+}
